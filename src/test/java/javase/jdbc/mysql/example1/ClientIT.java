@@ -17,6 +17,6 @@ public class ClientIT {
     	String actual = Client.select();
         System.out.println(actual);
         
-        assertEquals("same", actual);
+        assertEquals("sam", actual);
     }   
 }
